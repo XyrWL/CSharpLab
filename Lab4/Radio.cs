@@ -50,7 +50,6 @@ namespace Lab4
         public Radio()
         {
             InstanceCount++;
-            IsOn = false;
             Volume = 50;
             Frequency = 100.0;
         }
@@ -62,10 +61,8 @@ namespace Lab4
 
         public override string ToString()
         {
-            if (IsOn)
-                return $"Radio(On, Volume:{Volume}, Frequency:{Frequency})";
-            else
-                return $"Radio(Off, Volume:{Volume}, Frequency:{Frequency})";
+            var onOff = IsOn ? "On" : "Off";
+            return $"Radio({onOff}, Volume:{Volume}, Frequency:{Frequency})";
         }
     }
 }

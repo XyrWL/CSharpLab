@@ -34,7 +34,7 @@ namespace Lab4
             get { return type; }
             set
             {
-                var isValidType = value == "kupe" || value == "kombi";
+                var isValidType = value.ToLower() == "kupe" || value == "kombi";
                 if (value != null && isValidType)
                     type = value;
             }

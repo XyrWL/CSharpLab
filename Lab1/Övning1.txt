@@ -1,0 +1,23 @@
+﻿1.- Vad står CLR för och vad används den till?
+
+	CLR står för Common Language Runtime och är en virtuell maskin som används för att köra program skrivna i programspråk som stöds av .NET (C# i vårt fall).
+
+2.- Vad är BCL?
+
+	BCL eller Base Class Library är en samling av kod som innehåller data typ definitioner och vanliga klasser som används i standard .NET programmering.
+
+3.- Va innebär det att kompilera källkod?
+
+	När man kompilerar källkod så översätts det till CIL kod, som är närmre till maskin kod och är det som körs i CLR när man startar programmet (i form av .exe filer eller .dll filer om det inte är exekverbar kod).
+
+4.- Den första kompileringen av källkod genererar en assembly i CIL-format. Vad står CIL för?
+
+	CIL står för Common Intermediate Language.
+
+5.- Vad kallas den andra kompileringen, dvs den som tar en assembly på CIL-format och omvandlar till maskinkod? Här bör du känna till både förkortning och vad den står för. När sker denna kompilering normalt?
+
+	Kompileringen sker under exekvering av CIL koden i CLR och kallas för JIT eller Just In Time kompilering, som innebär att den kompilerar bara den koden den behöver om och när den behöver den.
+
+6.- Nämn en fördel och en nackdel med att .NET-program körs i en runtime-miljö.
+
+	Inom fördelar så är det säkrare att köra program i en separat runtime-miljö eftersom fel drabbar inte själva datorn och är isolerat i sandboxen. Det är dock också långsammare en direkt exekvering på CPUn.

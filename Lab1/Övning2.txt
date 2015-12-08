@@ -1,0 +1,48 @@
+﻿1.- Vad är en identifierare?
+
+	Identifierare är text sträng som ger namn till element (t.ex variabler, metoder, parameter) för att kunna komma åt dem senare.
+
+2.- Hur får en identifierare se ut?
+
+	En identifierare kan innehålla _, a-z och A-Z tecken, 0-9 om det inte är på första bokstaven, och @ bara på första bokstaven.
+
+3.- Vad är camel case och pascal case?
+
+	Camel case innebär att skriva en identifierare med första ordet med en liten bokstav och alla orden efter tillsammans med deras första bokstav stort (t.ex thisIsAnExampleOfCamelCase).
+
+	Pascal case följer samma struktur men första ordet har också första bokstaven stort (t.ex ThisIsAnExampleOfPascalCase).
+
+4.- Vad är nyckelord?
+
+	Nyckelord är reserverade namn inom programmeringsspråket som används för någon annan funktionalitet och får inte användas som identifierare.
+
+5.- Vad innebär det att C# är case sensitive?
+
+	Det innebär att en identifierare med stora bokstäver är inte samma som en annan med samma små bokstäver och pekar på två olika saker.
+
+6.- Kompilatorn struntar i s.k. whitespace, men för tydlighetens skulle bör alltid källkod formatteras för maximal läsbarhet. Nämn ett par olika typer av whitespace.
+
+	Mellanslag, Tab eller Ny rad.
+
+7.- Vilket tecken används för att avsluta ("terminera") ett uttryck?
+
+	; används för att avsluta ett uttryck.
+
+8.- Flera uttryck kan grupperas tillsammans till ett s.k. block, t.ex. för att utföras tillsammans om ett villkor är uppfyllt. Hur grupperas uttryck?
+
+	{} används för att gruppera uttrycken.
+
+9.- När bör källkod kommenteras? Vilka olika kommentarstyper finns, och hur anges de?
+
+	Det finns enkel rad kommentering som skrivs med //, fler rad kommentering (delimited comments) som skrivs med /* */, och dokumentation som skrivs med ///. Kommentarer används för att förklara men bör inte användas om det går att undvika genom att använda bättre identifierare, förutom när det skrivs som dokumentation för funktionaliteten (t.ex av en metod).
+
+Uppgift 1:
+Uppgift 2:
+	- "; expected"
+	- "Program does not contain a static 'Main' method suitable for an entry point	Uppgift 1"
+	- "The type or namespace name 'klass' could not be found (are you missing a using directive or an assembly reference?)"
+	- "} expected"
+	- "The name 'Console' does not exist in the current context	Uppgift 1"
+Uppgift 3:
+Uppgift 4:
+	- Uppgift 1.exe, Uppgift 1.exe.config  och Uppgift 1.pdb togs bort från bin/Debug mappen.
